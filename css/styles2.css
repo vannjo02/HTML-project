@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+body {
+	font: 9pt century gothic;
+	letter-spacing: 1px;
+	background-image: url(../images/background.jpg);
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	min-width: 640px;
+	overflow: auto;
+	
+	
+}
+
+body > article{
+	width: 51%;
+	float: left;
+	margin: 0 3% 0 3%;
+}
+
+
+header {
+	width: 100%;
+	
+}
+
+a img {
+	padding: 0px 3px 3px 3px;
+	border: 3px gray;
+	border-style: outset;
+	width: 50%;
+	height: auto;
+}
+
+img#logo {
+	width: 100%;
+	height: auto;
+}
+
+img#styles {
+	width: 125%;
+	height: auto;
+}
+
+img#water {
+	margin-left: 35px;
+}
+
+img#toph {
+	width: 20%;
+	height: auto;
+	margin-left: 30%;
+}
+
+
+li {
+	padding: 0px;
+}
+
+
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1.3em;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 10px;	 
+}
+
+
+
+h1 {
+	
+	font: 24px century gothic;
+	color: #cce4f8;
+	letter-spacing: 3px;
+	text-shadow: 3px 3px 3px #40200d; 
+	margin-bottom: 10px;
+	font-weight: lighter;
+}
+
+h2 {
+	margin-left: 10px;
+	
+	font: 22px century gothic;
+	color: #cce4f8;
+	letter-spacing: 3px;
+	text-shadow: 3px 3px 3px #40200d; 
+	margin-bottom: 10px;
+	font-weight: lighter;
+	
+}
+
+h3 {
+	margin-left: 10px;
+	margin-right: 10px;
+	font: 20px century gothic;
+	color: #cce4f8;
+	letter-spacing: 3px;
+	text-shadow: 3px 3px 3px #40200d; 
+	margin-bottom: 10px;
+	font-weight: lighter;
+	
+}
+
+h4 {
+	margin-left: 10px;
+	margin-right: 10px;
+	font: 17px century gothic;
+	color: #cce4f8;
+	letter-spacing: 3px;
+	text-shadow: 3px 3px 3px #40200d; 
+	margin-bottom: 10px;
+	font-weight: lighter;
+
+}
+
+h5 {
+	margin-left: 10px;
+	margin-right: 10px;
+	font: 15px century gothic;
+	color: #cce4f8;
+	letter-spacing: 3px;
+	text-shadow: 3px 3px 3px #40200d; 
+	margin-bottom: 10px;
+	font-weight: lighter;
+	
+}
+
+
+
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+	color: rgb(102, 51, 153);
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+a:hover, a:active, a:focus { 
+	color: rgb(30,20,10);
+	letter-spacing: 4px;
+}
+
+
+nav {
+	width: 20%;
+	float: left;
+	margin: 1.5% 0 0 1%;
+	font-size: 1.2em;
+}
+
+nav > ul {
+	list-style: none; 
+	
+	
+	margin-bottom: 10px; 
+	padding-left: 30px;
+	
+}
+
+
+body > footer {
+	width: 100%;
+	clear: left;
+}
+
+
